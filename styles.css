@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+  display: inline-block;
+  padding: 0.8em 3em;
+  background-color: #e3364a; /* 背景色 */
+  box-shadow: 0 5px 0 #ca1c30; /* 影の太さ・色 */
+  border-radius: 60px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none; /* 文字の下線を消す */
+}
+
+/* クリック時 */
+button:active {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
